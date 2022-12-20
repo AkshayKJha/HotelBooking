@@ -1,0 +1,254 @@
+[
+  {
+    "title": "Morraine Drive Campsite",
+    "description": "Discover a place that's brimming with hidden treasures in Colorado Springs! As soon as you arrive at this 2-bedroom (plus loft), 2-bath vacation rental, its wraparound porch and hilltop location overlooking picturesque landscapes are sure to impress. Step inside to an updated cottage complete with modern appliances, cozy furnishings, and spacious bedrooms. When it's time to venture out, get your heart pumping during a mountain drive through Independence pass before unwinding at a bathhouse in town!",
+    "location": "Denver, Colorado",
+    "nightlyfee": "$45",
+    "rating": "5.0",
+    "thumbnail": "./images/campsite.jpeg",
+    "fromDate": "11/02/2022",
+    "toDate": "11/08/2022",
+    "amenities": [
+      "Fireplace",
+      "Wifi",
+      "Tour Guide",
+      "Tents and Logs",
+      "Food & Gas"
+    ],
+    "cleaningfee": "$10",
+    "servicefee": "$5",
+    "bedrooms": 2,
+    "bathrooms": 1
+  },
+  {
+    "title": "McArthur Inn",
+    "description": "At the motel, every room comes with a closet, a flat-screen TV, a private bathroom, bed linen and towels. All guest rooms will provide guests with a microwave. Speaking both English and Hindi, staff at the reception can help you plan your stay. Aspen County Museum Of Art (ACMA) is 7 miles from 24 Hours Motel, while Staples Center is 7.4 miles away. The nearest airport is Aspen Municipal Airport, 5 miles from the accommodation.",
+    "location": "Aspen, Colorado",
+    "nightlyfee": "$35",
+    "rating": "4.6",
+    "thumbnail": "./images/motel.jpeg",
+    "fromDate": "11/01/2022",
+    "toDate": "11/12/2022",
+    "amenities": [
+      "Complimentary Breakfast", 
+      "Community Kitchen", 
+      "Free Wifi", 
+      "Swimming Pool", 
+      "Twin Beds"
+    ],
+    "cleaningfee": "$10",
+    "servicefee": "$5",
+    "bedrooms": 1,
+    "bathrooms": 1
+  },
+  {
+    "title": "Expressway Motel",
+    "description": "At the motel, every room comes with a closet, a flat-screen TV, a private bathroom, bed linen and towels. All guest rooms will provide guests with a microwave. Speaking both English and Hindi, staff at the reception can help you plan your stay. Dallas County Museum Of Art (LACMA) is 7 miles from 24 Hours Motel, while Staples Center is 7.4 miles away. The nearest airport is Dallas Lovefield Airport, 5 miles from the accommodation.",
+    "location": "Dallas, Texas",
+    "nightlyfee": "$50",
+    "rating": "4.2",
+    "thumbnail": "./images/motel_2.jpeg",
+    "fromDate": "11/05/2022",
+    "toDate": "11/13/2022",
+    "amenities": [
+      "Swimming Pool",
+      "Diner",
+      "Paid Wifi",
+      "Play Area",
+      "Room Service"
+    ],
+    "cleaningfee": "$10",
+    "servicefee": "$5",
+    "bedrooms": 2,
+    "bathrooms": 2
+  },
+  {
+    "title": "Campbell Bed and Breakfast",
+    "description": "Campbell chapel is a BED AND BREAKFAST/event venue. A beautiful 1895 historic property (formerly a church) in a revitalized downtown. We have 6 unique suites available for guests. We are located 12 minutes from I-40 (North Jackson & Union University) and an easy drive on 45w to get here. Enjoy the tranquility of your room or take a stroll down Main Street! Great for couples, solo adventurers and business travelers of all types.",
+    "location": "Austin, Texas",
+    "nightlyfee": "$55",
+    "rating": "3.8",
+    "thumbnail": "./images/bed_breakfast.jpeg",
+    "fromDate": "11/12/2022",
+    "toDate": "11/15/2022",
+    "amenities": [
+      "Restaurant",
+      "Twin Beds",
+      "Massage Parlour",
+      "Wifi",
+      "Video Station"
+    ],
+    "cleaningfee": "$10",
+    "servicefee": "$5",
+    "bedrooms": 3,
+    "bathrooms": 2
+  },
+  {
+    "title": "The Chateau Bleu",
+    "description": "This AMAZING place sits on 3 acres next to the Brazos river, just 15 minutes from Weatherford, 35 minutes from Granbury, and 45 minutes from Malibu. Bring your family and friends, and enjoy the PEACEFUL life on the river. The sunsets are GORGEOUS. Come to swim, canoe, kayak, fish, RELAX and UNWIND!",
+    "location": "Malibu, California",
+    "nightlyfee": "$135",
+    "rating": "3.4",
+    "thumbnail": "./images/resort.jpeg",
+    "fromDate": "11/10/2022",
+    "toDate": "11/20/2022",
+    "amenities": [
+      "Restaurant",
+      "Swimming Pool",
+      "Kitchen",
+      "Spa",
+      "Golf Court"
+    ],
+    "cleaningfee": "$50",
+    "servicefee": "$25",
+    "bedrooms": 3,
+    "bathrooms": 2
+  },
+  {
+    "title": "The Park",
+    "description": "Overlooking Grant Park and Lake Sacramento, this hotel is within 5 minutes’ walk of Millennium Park. It features on-site dining, an indoor pool and a 37-inch flat-screen TV with HBO in every room. An MP3 alarm clock and mini-refrigerator are included in every elegant room at The Park, Sacramento. Room service is available, and free bathroom amenities are standard. A heated indoor pool and hot tub along with a seasonal sundeck are offered at Sacramento Park. Guests can work out in the modern fitness center at an extra cost, or make use of the on-site business center. 720 South Bar & Grill serves local cuisine and craft beers for breakfast, lunch, and dinner. Kitty O’Sheas Irish pub provides live entertainment. Herb N' Kitchen offers light fare, meals to go, and coffee. The Shedd Aquarium and Field Museum are 1 miles away. Soldier Field, home of the Bears, can be reached in 5 minutes’ drive. This is our guests' favorite part of Sacramento, according to independent reviews.",
+    "location": "Sacramento, California",
+    "nightlyfee": "$150",
+    "rating": "3.0",
+    "thumbnail": "./images/bed_breakfast2.jpg",
+    "fromDate": "11/15/2022",
+    "toDate": "11/25/2022",
+    "amenities": [
+      "Luxury Suite",
+      "Valet Parking",
+      "Spa",
+      "Restaurant",
+      "Conference Hall"
+    ],
+    "cleaningfee": "$40",
+    "servicefee": "$25",
+    "bedrooms": 3,
+    "bathrooms": 2
+  },
+  {
+    "title": "Wonderland Holiday Resort",
+    "description": "Come enjoy the perfect spot for your island escape by the beach with your pup or a small group wanting multiple condos all on the same property! Set just 2 quick and scenic blocks to the island's spectacular Seawall, .5 mile from Pleasure Pier, and a little over a mile to the popular Strand Historic District, you are right in the heart of Tempe's best!",
+    "location": "Tempe, Arizona",
+    "nightlyfee": "$200",
+    "rating": "3.6",
+    "thumbnail": "./images/resort_2.jpeg",
+    "fromDate": "11/15/2022",
+    "toDate": "11/25/2022",
+    "amenities": [
+      "Recreation Hub",
+      "Kitchen",
+      "Spa",
+      "Indoor Gym",
+      "Bar & Restaurant"
+    ],
+    "cleaningfee": "$30",
+    "servicefee": "$15",
+    "bedrooms": 3,
+    "bathrooms": 2
+  },
+  {
+    "title": "Radisson Blu Luxury Hotel",
+    "description": "North of the downtown area and only a short distance from many area points of interest, this elegant hotel features state-of-the-art amenities and facilities along with exceptional accommodations. With the Phoenix Market Center exposition center and Phoenix International Airport a short drive away, the Radisson Blu Phoenix offers an ideal location for exploring the exciting city. Guests can also easily find the Arizona Museum of Art, Phoenix Stadium and North Park shopping center nearby. In addition to warm Miami hospitality, guests at the Radisson can enjoy the fully equipped fitness center as well as the on-site dining options. The hotel also features a sunny rooftop swimming pool.",
+    "location": "Phoenix, Arizona",
+    "nightlyfee": "$115",
+    "rating": "3.2",
+    "thumbnail": "./images/hotel_2.jpeg",
+    "fromDate": "11/11/2022",
+    "toDate": "11/26/2022",
+    "amenities": [
+      "Restaurant",
+      "Swimming pool",
+      "Casino",
+      "Movie Theatre",
+      "Room Service"
+    ],
+    "cleaningfee": "$20",
+    "servicefee": "$15",
+    "bedrooms": 3,
+    "bathrooms": 2
+  },
+  {
+    "title": "Jesse's Beach Resort",
+    "description": "Private Island Rental- 2 Bed, 2 Bath, Sleeps 4 comfortable and 5 with 1 guest sleeping on family room futon. Thatch roof, over water bungalow- w/mahogany & granite throughout. Private blue lagoon w/ LED lighting. Warm tropical breezes & 360-degree views of the Caribbean & Mayan Mountains. World class snorkeling, minutes from the 2nd largest barrier reef. Guests have the entire island to themselves- includes private chef, 3 meals daily, beverages, local alcohol, concierge, and boat transfers.",
+    "location": "Tampa, Florida",
+    "nightlyfee": "$250",
+    "rating": "3.8",
+    "thumbnail": "./images/beachstay_2.jpeg",
+    "fromDate": "11/10/2022",
+    "toDate": "12/01/2022",
+    "amenities": [
+      "Beach front",
+      "Swimming Pool",
+      "Volleyball Court",
+      "Bar & Restaurant",
+      "Casino"
+    ],
+    "cleaningfee": "$40",
+    "servicefee": "$25",
+    "bedrooms": 3,
+    "bathrooms": 2
+  },
+  {
+    "title": "Sheraton Grand",
+    "description": "North of the downtown area and only a short distance from many area points of interest, this elegant hotel features state-of-the-art amenities and facilities along with exceptional accommodations. With the Miami Market Center exposition center and Miami International Airport a short drive away, the Sheraton Miami offers an ideal location for exploring the exciting city. Guests can also easily find the Florida Museum of Art, Miami Stadium and North Park shopping center nearby. In addition to warm Miami hospitality, guests at the Sheraton can enjoy the fully equipped fitness center as well as the on-site dining options. The hotel also features a sunny rooftop swimming pool.",
+    "location": "Miami, Florida",
+    "nightlyfee": "$120",
+    "rating": "2.6",
+    "thumbnail": "./images/hotel.jpeg",
+    "fromDate": "12/10/2022",
+    "toDate": "12/25/2022",
+    "amenities": [
+      "Deluxe Suite",
+      "Kitchen",
+      "Private Pool",
+      "Restaurant",
+      "Free Transportation"
+    ],
+    "cleaningfee": "$30",
+    "servicefee": "$15",
+    "bedrooms": 2,
+    "bathrooms": 2
+  },
+  {
+    "title": "Stacy's Beach Stay",
+    "description": "Pictures do not do justice to the lake views from the backyard. Recently renovated home with an open floor plan facing the lake. Brand new updated furniture! This house features 2 bedrooms and 2 bathrooms sitting on 2 lots of waterfront land. The upstairs boat dock and covered patio is perfect for late nights. Cedar Creek Lake welcomes plenty to swim, boat and fish. Facing the lake is a large backyard with picnic tables. The fire pit is fun to gather around. Quaint home for relaxing getaways!",
+    "location": "Seattle, Washington",
+    "nightlyfee": "$90",
+    "rating": "1.4",
+    "thumbnail": "./images/beachstay.jpeg",
+    "fromDate": "11/25/2022",
+    "toDate": "12/05/2022",
+    "amenities": [
+      "Beach front",
+      "Kitchen",
+      "Outdoor Gym",
+      "Restaurant",
+      "Room Service"
+    ],
+    "cleaningfee": "$20",
+    "servicefee": "$5",
+    "bedrooms": 2,
+    "bathrooms": 1
+  },
+  {
+    "title": "5-Inn Mountain Stay",
+    "description": "Fun little getaway for friends and family! Remodeled vintage Spartan trailer on a wooded and secluded 3.5 acres in South Redmond. Check out our other trailers when you visit our campsite. We've added all the amenities and details for the coziest stay. Outdoor Live music on weekends and food trucks next door. Only 10 miles from downtown Redmond. Private deck, fireplace, king size bed, WIFI, and all the streaming services.",
+    "location": "Redmond, Washington",
+    "nightlyfee": "$70",
+    "rating": "2.7",
+    "thumbnail": "./images/campsite_3.jpeg",
+    "fromDate": "11/25/2022",
+    "toDate": "12/15/2022",
+    "amenities": [
+      "Mountain View",
+      "Twin Beds",
+      "Restaurant",
+      "Kitchen",
+      "Paid Wifi"
+    ],
+    "cleaningfee": "$20",
+    "servicefee": "$10",
+    "bedrooms": 2,
+    "bathrooms": 1
+  }
+]

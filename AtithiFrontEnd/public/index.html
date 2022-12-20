@@ -1,0 +1,444 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/Users/mallikarjunrao5685/Desktop/react-api/src/index.css">
+    <meta name="description" content="Web site created using create-react-app" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="./src/App.js"></script>
+    <script src="./src/components/listings.js"></script>
+
+    <title>Atithi</title>
+</head>
+
+<body>
+    <div id="root"></div>
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid topNav">
+            <a class="navbar-brand" href="#">
+                <img src="images/AtithiIcon.png" alt="Atithi Icon" width="100" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="me-auto mb-2 mb-lg-0"></div>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="btn btn-outline-light" aria-current="page" role="button" href="#">List Your Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" tabindex="-1">Help</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Location
+                        </a>
+                        <span class="locationDropdown dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="card">
+                                <div class="card-header text-center">
+                                    <p>Our Top Cities</p>
+                                </div>
+                                <div class="card-body container text-center">
+                                    <div class="row">
+                                        <div class="col-md-4 col-sm-10 border-end">
+                                            <div><a class="dropdown-item" href="#"> New York </a></div>
+                                            <div><a class="dropdown-item" href="#"> Los Angeles </a></div>
+                                            <div><a class="dropdown-item" href="#"> Chicago </a></div>
+                                            <div><a class="dropdown-item" href="#"> Houston </a></div>
+                                            <div><a class="dropdown-item" href="#"> Phoenix </a></div>
+                                            <div><a class="dropdown-item" href="#"> Philadelphia </a></div>
+                                            <div><a class="dropdown-item" href="#"> San Antonio </a></div>
+                                            <div><a class="dropdown-item" href="#"> Las Vegas </a></div>
+                                        </div>
+                                        <div class="col-md-4 col-sm-10 border-end">
+                                            <div><a class="dropdown-item" href="#"> San Diego </a></div>
+                                            <div><a class="dropdown-item" href="#"> Dallas </a></div>
+                                            <div><a class="dropdown-item" href="#"> San Jose </a></div>
+                                            <div><a class="dropdown-item" href="#"> Austin </a></div>
+                                            <div><a class="dropdown-item" href="#"> Jacksonville </a></div>
+                                            <div><a class="dropdown-item" href="#"> Fort Worth </a></div>
+                                            <div><a class="dropdown-item" href="#"> Columbus </a></div>
+                                            <div><a class="dropdown-item" href="#"> Miami </a></div>
+                                        </div>
+                                        <div class="col-md-4 col-sm-10">
+                                            <div><a class="dropdown-item" href="#"> Indianapolis </a></div>
+                                            <div><a class="dropdown-item" href="#"> Charlotte </a></div>
+                                            <div><a class="dropdown-item" href="#"> San Francisco </a></div>
+                                            <div><a class="dropdown-item" href="#"> Seattle </a></div>
+                                            <div><a class="dropdown-item" href="#"> Denver </a></div>
+                                            <div><a class="dropdown-item" href="#"> Washington</a></div>
+                                            <div><a class="dropdown-item" href="#"> Minneapolis </a></div>
+                                            <div><a class="dropdown-item" href="#"> Detroit </a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </span>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="register">Register</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-toggle" href="#" id="signIn" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Login
+                        </a>
+                        <span class="loginDropdown dropdown-menu" aria-labelledby="signIn">
+                            <div class="card">
+                                <div class="card-header text-center" id="loginHeader">Atithi Login
+                                </div>
+                                <div class="card-body loginFields username mb-3">
+                                    <label for="Username " class="card-title form-label">Username or email
+                                        address:</label>
+                                    <input type="email" class="form-control" id="Username" aria-describedby="emailHelp">
+                                </div>
+                                <div class="loginFields mb-3">
+                                    <label for="Password" class="card-title form-label">Password:</label><a href="#">
+                                        <small>Forgot Password?</small>
+                                    </a>
+                                    <input type="password" class="form-control" id="Password">
+                                </div>
+                                <span class="loginFields mb-3 form-check text-center">
+                                    <button type="submit"
+                                        class="loginFields btn btn-secondary text-center">Submit</button>
+                                </span>
+                                <hr>
+                                <div class=" loginFields card-text">
+                                    <a href="#" aria-expanded="false">
+                                        Not a member yet? Sign Up
+                                    </a>
+                                </div>
+                                <br>
+                            </div>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid text-center">
+        <div class="row min-vh-100">
+            <div class="col-md-3 col-sm-12 border-end leftmenu">
+                <div id="returnHome"></div>
+                <div class=" searchStay card" id="searchwidget">
+                    <div class="card-header text-center" id="bookRoom">Book your Stay</div>
+                    <div class="card-body destination mb-3">
+                        <label for="Destination " class="card-title form-label">Destination</label>
+                        <input type="text" class="form-control" id="Destination" placeholder="Anywhere">
+                    </div>
+                    <div class="checkinout mb-3">
+                        <div class=" container-fluid text-center">
+                            <div class="row">
+                                <div class=" col-md-6 col-sm-12 border-end">
+                                    <label for="checkInDate" class="card-title form-label">CheckIn:</label>
+                                    <input type="date" class="date form-control" id="checkInDate"
+                                        placeholder="mm/dd/yy">
+                                </div>
+                                <div class=" col-md-6 col-sm-12 ">
+                                    <label for="checkOutDate" class="card-title form-label">CheckOut:</label>
+                                    <input type="date" class="date form-control" id="checkOutDate">
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class=" container-fluid text-center">
+                            <div class="row">
+                                <div class=" col-md-6 col-sm-12 border-end">
+                                    <label for="adult" class="card-title form-label">Adults:</label>
+                                    <input type="text" class="form-control" id="adult" value="1">
+                                </div>
+                                <div class=" col-md-6 col-sm-12">
+                                    <label for="children" class="card-title form-label">Children:</label>
+                                    <input type="text" class="form-control" id="children" value="0">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <span class="loginFields mb-3 form-check">
+                        <button id="booksubmit" type="submit" class="loginFields btn btn-secondary">Submit</button>
+                    </span>
+
+
+                </div>
+                <br>
+                <div class="card text-start" id="filterwidget">
+                    <div class="container-fluid card-header">
+                        <label for="filterBy"><b>Filter by:</b></label>
+                    </div>
+                    <div class="container-fluid card-body">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <h6><b>Your Budget (per night)</b></h6>
+                            </div>
+                            <div class=" container-fluid text-center">
+                                <div class="row">
+                                    <div class=" col-md-6 col-sm-12 border-end">
+                                        <label for="adult" class="card-title form-label">Min. Price:</label>
+                                        <input type="text" class="form-control" id="minPrice" value="$20">
+                                    </div>
+                                    <div class=" col-md-6 col-sm-12">
+                                        <label for="children" class="card-title form-label">Max. Price:</label>
+                                        <input type="text" class="form-control" id="maxPrice" value="$500">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <hr>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <h6><b>Amenities</b></h6>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="familyRooms">
+                                <label class="form-check-label" for="familyRooms">Family rooms</label>
+                                <br>
+                                <input class="form-check-input" type="checkbox" value="" id="petFriendly">
+                                <label class="form-check-label" for="petFriendly">Pet friendly</label>
+                                <br>
+                                <input class="form-check-input" type="checkbox" value="" id="freeWifi">
+                                <label class="form-check-label" for="freeWifi">Free WiFi</label>
+                                <br>
+                                <input class="form-check-input" type="checkbox" value="" id="parking">
+                                <label class="form-check-label" for="parking">Parking</label>
+                                <br>
+                                <input class="form-check-input" type="checkbox" value="" id="nonSmoking">
+                                <label class="form-check-label" for="nonSmoking">Non-smoking rooms</label>
+                                <br>
+                                <input class="form-check-input" type="checkbox" value="" id="fitnessCentre">
+                                <label class="form-check-label" for="fitnessCentre">Fitness Centre</label>
+                                <br>
+                                <input class="form-check-input" type="checkbox" value="" id="swimmingPool">
+                                <label class="form-check-label" for="swimmingPool">Swimming Pool</label>
+                                <br>
+                                <input class="form-check-input" type="checkbox" value="" id="evCharging">
+                                <label class="form-check-label" for="evCharging">EV Charging</label>
+                                <br>
+                                <input class="form-check-input" type="checkbox" value="" id="disabilityAccess">
+                                <label class="form-check-label" for="disabilityAccess">Disability Access</label>
+                                <br>
+                                <input class="form-check-input" type="checkbox" value="" id="restaurant">
+                                <label class="form-check-label" for="restaurant">Restaurant</label>
+                                <br>
+                                <input class="form-check-input" type="checkbox" value="" id="roomService">
+                                <label class="form-check-label" for="roomService">Room Service</label>
+                                <br>
+                                <input class="form-check-input" type="checkbox" value="" id="spa">
+                                <label class="form-check-label" for="spa">Spa</label>
+                                <br>
+                                <input class="form-check-input" type="checkbox" value="" id="twinBeds">
+                                <label class="form-check-label" for="twinBeds">Twin Beds</label>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <h6><b>Star Rating</b></h6>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="fiveStar">
+                                <label class="form-check-label" for="fiveStar">4.1 - 5.0</label>
+                                <br>
+                                <input class="form-check-input" type="checkbox" value="" id="fourStar">
+                                <label class="form-check-label" for="fourStar">3.1 - 4.0</label>
+                                <br>
+                                <input class="form-check-input" type="checkbox" value="" id="threeStar">
+                                <label class="form-check-label" for="threeStar">2.1 - 3.0</label>
+                                <br>
+                                <input class="form-check-input" type="checkbox" value="" id="twoStar">
+                                <label class="form-check-label" for="twoStar">1.1 - 2.0</label>
+                                <br>
+                                <input class="form-check-input" type="checkbox" value="" id="oneStar">
+                                <label class="form-check-label" for="oneStar">Less than 1.0</label>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <h6><b>Property Type</b></h6>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="hotels">
+                                <label class="form-check-label" for="hotels">Hotels</label>
+                                <br>
+                                <input class="form-check-input" type="checkbox" value="" id="apartmentHomes">
+                                <label class="form-check-label" for="apartmentHomes">Apartment Homes</label>
+                                <br>
+                                <input class="form-check-input" type="checkbox" value="" id="motels">
+                                <label class="form-check-label" for="motels">Motels</label>
+                                <br>
+                                <input class="form-check-input" type="checkbox" value="" id="vacationHomes">
+                                <label class="form-check-label" for="vacationHomes">Vacation Homes</label>
+                                <br>
+                                <input class="form-check-input" type="checkbox" value="" id="resorts">
+                                <label class="form-check-label" for="resorts">Resorts</label>
+                                <br>
+                                <input class="form-check-input" type="checkbox" value="" id="bedAndBreakfast">
+                                <label class="form-check-label" for="bedAndBreakfast">Bed and Breakfasts</label>
+                                <br>
+                                <input class="form-check-input" type="checkbox" value="" id="guesthouses">
+                                <label class="form-check-label" for="guesthouses">Guesthouses</label>
+                                <br>
+                                <input class="form-check-input" type="checkbox" value="" id="homestays">
+                                <label class="form-check-label" for="homestays">Homestays</label>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <h6><b>Cancellation Policy</b></h6>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="freeCancellation">
+                                <label class="form-check-label" for="freeCancellation">Free Cancellation</label>
+                                <br>
+                                <input class="form-check-input" type="checkbox" value="" id="noRepayment">
+                                <label class="form-check-label" for="noRepayment">No Repayment</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </div>
+            <div class="col-md-9 col-sm-12">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/csel1.png" class="d-block w-100" alt="..." />
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>
+                                    Brad Pitt <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i>
+                                </h2>
+                                <p class="reviews">
+                                    The rooms are quite luxurious, all featuring private en-suites,
+                                    king sized beds, large TV's & in room fridge-freezer, microwave
+                                    and kettle.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/csel2.png" class="d-block w-100" alt="..." />
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>
+                                    Robert Downey Jr. <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-half"></i>
+                                </h2>
+                                <p class="reviews">
+                                    The rooms were clean, very comfortable, and the staff was
+                                    amazing. They went over and beyond to help make our stay
+                                    enjoyable. I highly recommend this hotel for anyone visiting.{" "}
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/csel3.png" class="d-block w-100" alt="..." />
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>
+                                    Tom Cruise <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </h2>
+                                <p class="reviews">
+                                    The best place I’ve ever been privileged enough to stay at.
+                                    Gorgeous building, and it only gets more breathtaking when you
+                                    walk in. High quality rooms (there was even a tv by the shower),
+                                    and high quality service.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/csel4.png" class="d-block w-100" alt="..." />
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>
+                                    Mathew McConaughey <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-half"></i>
+                                </h2>
+                                <p class="reviews">
+                                    They were extremely accommodating and allowed us to check in
+                                    early at like 10am. We got here super early and I didn’t wanna
+                                    wait. So this was a big plus. The sevice was exceptional as
+                                    well. Would definitely recommend.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <hr />
+                <div id="root"></div>
+            </div>
+        </div>
+    </div>
+    </div> -->
+    <div class=" footer fixed-bottom">
+        <div class="row">
+            <div class="footdesc col-md-3 col-sm-12">
+                Team-4 Members:
+            </div>
+            <div class="col-md-3 col-sm-12">
+                Akshay Kumar Jha
+            </div>
+            <div class="col-md-3 col-sm-12">
+                Jagan Mohan Reddy Bijjam
+            </div>
+            <div class="col-md-3 col-sm-12">
+                Sai Mallikarjuna Rao Bollam
+            </div>
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

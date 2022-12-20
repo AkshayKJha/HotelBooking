@@ -1,0 +1,219 @@
+    .navbar {
+        background-color: #3D3D3C;
+    }
+
+    .dropdown-menu {
+        left: auto;
+        right: 10px;
+    }
+    .loginDropdown {
+        left:70% !important;;
+        padding: 0 !important;;
+    }
+
+    .locationDropdown{
+        left:60% !important; 
+        right:10px;
+        padding: 0 !important; 
+    }
+
+    a:link {
+        text-decoration: none;
+    }
+
+    .loginFields {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .loginSubmit {
+        text-align: right;
+    }
+
+    .listings {
+        height: 100%;
+        width: 100%;
+        /* overflow: auto; */
+    }
+
+    .footer {
+        text-align: center;
+        padding: 3px;
+        background-color: #3D3D3C;
+        color: white;
+    }
+
+    .nav-item {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .footdesc {
+        color: #91805C;
+    }
+
+    h2 .bi-star-fill {
+        color: yellow
+    }
+
+    h2 .bi-star-half {
+        color: yellow
+    }
+
+    .searchStay {
+        margin-top: 10px;
+    }
+
+    .date {
+        font-family: auto;
+    }
+
+    .reviews {
+        color: cornsilk;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .leftmenu {
+        border-color: brown;
+    }
+
+    .housedesc {
+        text-decoration: none;
+    }
+
+    .house {
+        margin-top: 10px;
+    }
+
+    h1 {
+        font-size: 25px !important;
+    }
+
+    h6 {
+        color: black;
+    }
+
+    h2 {
+        font-size: 22px !important;
+    }
+
+    h3 {
+        font-size: 18px !important;
+        color: black;
+    }
+
+    p.amendesc,
+    p.costrating {
+        color: black;
+    }
+
+    .ratingdesc, small {
+        float: right;
+    }
+
+    .pagetogg {
+        margin-top: 20px;
+
+    }
+    .houseList .card:hover {
+        box-shadow: 0 15px 10px -10px rgba(31, 31, 31, 0.5);
+        transition: all 0.3s ease;
+    }
+
+    .houseList .card-actions .btn {
+        color: #333;
+    }
+
+    .houseList .card-actions .btn:hover {
+        color: #f36525;
+    }
+
+    .houseList .card .card-actions {
+        box-shadow: 0 2px 0px 0 rgba(0, 0, 0, 0.075);
+        padding: 10px;
+        text-align: center;
+    }
+
+    .houseList .card .card-flap {
+    background: #d9d9d9;
+    position: absolute;
+    width: 100%;
+    -webkit-transform-origin: top;
+            transform-origin: top;
+    -webkit-transform: rotateX(-90deg);
+            transform: rotateX(-90deg);
+    }
+
+    .houseList .card .flap1 {
+    -webkit-transition: all 0.3s 0.3s ease-out;
+    transition: all 0.3s 0.3s ease-out;
+    z-index: -1;
+    }
+
+    .houseList .card .flap2 {
+    -webkit-transition: all 0.3s 0s ease-out;
+    transition: all 0.3s 0s ease-out;
+    z-index: -2;
+    }
+
+    .houseList.showing .card {
+        cursor: pointer;
+        opacity: 0.6;
+        -webkit-transform: scale(0.88);
+                transform: scale(0.88);
+    }
+
+    .houseList .no-touch .houseList.showing .card:hover {
+    opacity: 0.94;
+    -webkit-transform: scale(0.92);
+            transform: scale(0.92);
+    }
+
+    .houseList .card.d-card-show {
+    opacity: 1 !important;
+    -webkit-transform: scale(1) !important;
+            transform: scale(1) !important;
+    }
+
+    .houseList .card.d-card-show .card-flap {
+    background: #ffffff;
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+    }
+
+    .houseList .card.d-card-show .flap1 {
+    -webkit-transition: all 0.3s 0s ease-out;
+    transition: all 0.3s 0s ease-out;
+    }
+
+    .houseList .card.d-card-show .flap2 {
+    -webkit-transition: all 0.3s 0.2s ease-out;
+    transition: all 0.3s 0.2s ease-out;
+    }
+
+    .houseList .task-list {
+        padding: 0 !important;
+    }
+    .houseList .task-list li {
+      padding: 10px 0;
+      padding-left: 10px;
+      margin: 3px 0;
+        list-style-type: none;
+      border-bottom: 1px solid #e9ebed;
+      border-left: 3px solid #f36525;
+      transition: all .2s ease;
+    }
+    .houseList .task-list li:hover {
+      background: #ecf0f1;
+      transition: all .2s ease;
+    }
+    .houseList .task-list li span {
+      float: right;
+      color: #f36525;
+      margin-right: 5px;
+    }
+
+    body { padding-bottom: 70px; }
+
+
+      

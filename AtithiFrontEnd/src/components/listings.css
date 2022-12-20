@@ -1,0 +1,22 @@
+.hide-element {
+    display: none;
+  }
+
+.desc {
+    text-align: left;
+}
+
+.returnBack {
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.handleButtons {
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
